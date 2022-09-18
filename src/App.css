@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&display=swap');
+*{
+    font-family: 'Mukta', sans-serif;
+    color: grey;
+}
+.main-box{
+    display: flex;
+    border-radius: 10px;
+    border: 3px solid #f8f8f8;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.left{
+    width: 15%;
+    background-color: #f8f8f8;
+    height: 100vh;
+   /* overflow: auto; */
+}
+.right{
+    width: 85%;
+    background-color: #ffffff;
+    height: 100vh;
+    overflow: auto;
+}
+.my_img{
+    width: 6rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.side_main{
+    margin-top: 3rem;
+    height: 10%;
+    text-align: center;
+}
+.side-para{
+    text-align: left;
+    padding: 7px;
+    cursor: pointer;
+}
+.head-section{
+    height: 4rem;
+    background-color: transparent;
+    border-bottom: 3px solid #f8f8f8;
+}
+.right-cont{
+    float: right;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 4px;
+    padding-right: 4px;
+}
+
+.profile_img{
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.msg_img{
+    width: 40px;
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+.tab-title{
+    margin-top: 1rem;
+    height: 3rem;
+    background-color: transparent;
+    border-bottom: 5px solid #f8f8f8;
+}
+.tt-head{
+    display: inline;
+    margin-left: 1rem;
+}
+.tt-left{
+    width: 80%;
+    float: left;
+}
+.tt-btn{
+    border: none;
+    border-radius: 50%;
+    background-color: #634ad6;
+    margin-left: 1rem;
+    color: white;
+}
+.tb-status{
+    border: none;
+    border-radius: 50%;
+    background-color: #634ad6;
+    width: 10px;
+    height: 10px;
+    margin-left: 1rem;
+}
+.tt-right{
+    float: right;
+    width: 10%;
+    height: 100%;
+    background-color: transparent;
+    text-align: center;
+    
+}
+.tt-r-btn{
+border-radius: 50%;
+color: white;
+background-color: #58c193;
+border: none;
+width: 3rem;
+font-size: x-large;
+}
+.table-cont{
+    padding: 10px;
+}
+.timage{
+    width: 30px;
+    height: 20px;
+    border-radius: 50%;  
+}
+.tb-outer{
+    height: 4rem;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.tb-outer-btn{
+    border:none;
+    border-radius: 20px;
+    background-color: #634ad6;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    display: inline-block;
+  font-size: 12px;
+  margin: 10px 0px;
+  cursor: pointer;
+    
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    background-color: #f8f8f8;
+    border: 3px solid #f8f8f8;
+    text-align: left;
+}
+tr{
+    border-bottom: 3px solid #f8f8f8;
+}
+.toggle{
+    margin-top: 7rem;
+    height: 2rem;
+    background-color: transparent;
+    text-align: right;
+    width: 90%;
+    border-radius: 50%;
+}
